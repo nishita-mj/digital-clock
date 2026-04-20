@@ -18,3 +18,7 @@ function updateClock() {
 
   document.getElementById("clock").textContent = time;
 }
+
+setInterval(updateClock, 1000);
+
+updateClock();
